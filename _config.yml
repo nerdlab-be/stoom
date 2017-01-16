@@ -11,11 +11,11 @@ author: ''
 description: '...'
 
 # Site navigation
-navigation:
-  - title: styleguide
-    url: styleguide/
-  - title: grid
-    url: grid/
+# navigation:
+#   - title: styleguide
+#     url: styleguide/
+#   - title: grid
+#     url: grid/
 
 # Jekyll settings
 permalink: pretty
