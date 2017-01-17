@@ -1,0 +1,40 @@
+.c-graphic {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+    .c-graphic__item-holder {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+
+    .c-graphic__item {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        // opacity: .3;
+    }
+
+    .c-graphic__item--one {
+        top: 30%;
+    }
+
+    .c-graphic__item--two {
+        top: 10%;
+    }
+
+    .c-graphic__item--three {
+        top: 20%;
+    }
+
+    .c-graphic__item--four {
+        top: 40%;
+    }
+
+    .c-graphic__item--five {
+        top: 60%;
+    }

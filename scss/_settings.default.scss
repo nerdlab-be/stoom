@@ -41,11 +41,24 @@
     @return map-get(map-get($palettes, $palette), $tone);
 }
 
+// Tint & shade helper functions (http://bourbon.io/docs/#tint-shade)
+
+// Makes a color lighter
+@function tint($color, $percent) {
+    @return mix(#fff, $color, $percent);
+}
+
+// Makes a color darker
+@function shade($color, $percent) {
+    @return mix(#000, $color, $percent);
+}
+
 // Base colors
 $color-neutral                      : #aaa !default;
 
-$color-alpha                        : #0074D9 !default;
-$color-beta                         : #2ECC40 !default;
+$color-alpha                        : #FA5F4B !default;
+$color-beta                         : #6EC3C8 !default;
+$color-gamma                        : #4E388D !default;
 
 $color-error                        : #FF4136 !default;
 $color-success                      : #2ECC40 !default;
@@ -136,7 +149,7 @@ $beta-leading                       : 2 !default;
 // UI
 // ---
 
-$radius                             : 5px !default;
+$radius                             : 0 !default;
 $border-width                       : 1px !default;
 $border-style                       : solid !default;
 
@@ -217,7 +230,7 @@ $html-responsive-font-breakpoint    : bp5 !default;
 $html-responsive-font-magnification : 112.5% !default;
 
 $html-background-color              : palette(color-neutral,light) !default;
-$body-color                         : palette(color-neutral,dark) !default;
+$body-color                         : palette(color-neutral,x-dark) !default;
 
 $body-font-smoothing                : true !default;
 

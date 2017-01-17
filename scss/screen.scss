@@ -54,16 +54,18 @@
 @import 'components.navigation';
 @import 'components.brand';
 @import 'components.row';
+@import 'components.typography';
+@import 'components.graphic';
 @import 'components.icons';
 @import 'components.symbols';
-@import 'components.alerts';
+// @import 'components.alerts';
 @import 'components.buttons';
-@import 'components.input';
-@import 'components.label';
-@import 'components.lists';
-@import 'components.pagination';
-@import 'components.cards';
-@import 'components.styleguide';
+// @import 'components.input';
+// @import 'components.label';
+// @import 'components.lists';
+// @import 'components.pagination';
+// @import 'components.cards';
+// @import 'components.styleguide';
 
 /* Plugins */
 @import 'plugins.syntax';

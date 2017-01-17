@@ -1,0 +1,11 @@
+.c-page-intro {
+    @include text-dimensions($ms6,2,2);
+
+    @include mq(bp2) {
+        @include text-dimensions($ms7,2);
+    }
+
+    @include mq(bp4) {
+        @include text-dimensions($ms9,2.7,3);
+    }
+}

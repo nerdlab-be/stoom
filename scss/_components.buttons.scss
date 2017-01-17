@@ -27,7 +27,9 @@
     white-space: nowrap; /* [3] */
     border-radius: $radius;
     border-style: solid;
-    border-width: 1px;
+    border-width: 4px;
+    font-weight: $beta-font-weight;
+    font-family: $beta-font-family;
     transition-duration: $animation-duration-alpha;
     transition-timing-function: $animation-easing-alpha;
     transition-property: background, color, border;
@@ -95,28 +97,48 @@
 
 .c-button--lg {
     @include padding-lr(1.25,1.25);
-    @include input-dimensions($alpha-font-size,1,0,1,1);
+    @include input-dimensions($ms4,1,0,.5,.5);
 }
 
 // Button colors
 
 .c-button--alpha {
-    background-color: palette(color-alpha);
+    position: relative;
+    background-color: transparent;
     border-color: palette(color-alpha);
+    z-index: 1;
 
     &,
     &:visited {
-        color: palette(color-neutral,x-light);
+        color: palette(color-alpha);
     }
 
     &:hover,
     &:focus {
-        background-color: palette(color-alpha,light);
+        background-color: palette(color-alpha);
         color: palette(color-neutral,x-light);
     }
 
     &:active {
         background-color: palette(color-alpha);
+    }
+
+    &:before {
+        content: '';
+        position: absolute;
+        left: 6px;
+        top: 6px;
+        width: calc(100% + 4px);
+        height: calc(100% + 4px);
+        background: repeating-linear-gradient(
+            -45deg,
+            transparent,
+            transparent 3px,
+            palette(color-alpha) 3px,
+            palette(color-alpha) 6px
+        );
+        z-index: 0;
+        opacity: .2;
     }
 
 }

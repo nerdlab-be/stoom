@@ -9,11 +9,45 @@
     @include padding-lr($columns-gutter,$columns-gutter);
 }
 
+.c-row--large {
+    @include padding-tb($beta-leading*3,(($beta-leading*3) - $alpha-leading));
+}
+
+.c-row--header {
+    position: fixed;
+    width: 100%;
+    z-index: map-get($z-indexes,beta);
+}
+
+.c-row--full {
+    height: 100vh;
+    position: relative;
+}
+
+    .c-row__content {
+        @include padding-lr($columns-gutter,$columns-gutter);
+
+        .c-row--full & {
+            position: absolute;
+            left: 0;
+            width: 100%;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+
 .c-row--alpha {
     background-color: palette(color-neutral,x-light);
 }
 
 .c-row--beta {
     color: palette(color-neutral,dark);
-    background-color: palette(color-neutral,light);
+    background-color: tint(palette(color-alpha),85);
+    border: 20px solid palette(color-neutral,x-light);
+}
+
+.c-row--gamma {
+    color: palette(color-neutral,dark);
+    background-color: tint(palette(color-beta),85);
+    border: 20px solid palette(color-neutral,x-light);
 }
