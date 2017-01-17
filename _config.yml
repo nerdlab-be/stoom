@@ -11,6 +11,13 @@ collections:
   uploads:
     title: Uploads
     output: true
+defaults:
+  - scope:
+      path: ''
+      type: agenda
+    values:
+      workshop-date:
+      showoff-date:
 author: Nerdlab
 description: Wat als kunst en technologie samenkomen? Een vraag waar we bij Nerdlab
   vaak over nadenken, en waar we jou voor nodig hebben!
@@ -24,10 +31,10 @@ footer:
   instagram-url: https://www.instagram.com/nerdlab9000/
   partners:
   - title: Vlaamse overheid
-    img: 
+    img:
     url: http://www.vlaanderen.be/nl
   - title: Fisheye
-    img: 
+    img:
     url: http://fisheye.eu/
 permalink: pretty
 exclude:

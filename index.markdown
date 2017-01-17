@@ -29,6 +29,10 @@ practical:
     cost: "€10"
     text: Een losse workshop volgen kan ook, en kost €10. Eens langskomen op een werkmoment
       kan altijd en is gratis.
+agenda:
+  title: Agenda
+  workshop-title: Workshop op
+  showoff-title: Toonmoment op
 cta:
   title: Doe mee!
   button: Schrijf je in
@@ -36,4 +40,3 @@ cta:
   link: Stel vragen aan Marlies
   link-url: mailto:marlies@nerdlab.be
 ---
-

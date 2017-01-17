@@ -43,6 +43,26 @@ layout: default
     </div>
 </div>
 
+<!-- Agenda -->
+<div class="c-row c-row--alpha">
+    <div class="o-container">
+        <h2>
+            {{ page.agenda.title }}
+        </h2>
+        <div class="o-grid o-grid--gutter">
+            {% assign agenda = site.agenda | sort: 'position' %}
+            {% for item in agenda %}
+            <div class="o-grid__item u-1-of-4-bp3">
+                <h3>{{ item.title }}</h3>
+                <p>{{ page.agenda.workshop-title }} {{ item.workshop-date | date: "%b %-d, %Y" }}</p>
+                <p>{{ page.agenda.showoff-title }} {{ item.showoff-date | date: "%b %-d, %Y" }}</p>
+                {{ item.content }}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
 <!-- CTA -->
 <div class="c-row c-row--alpha">
     <div class="o-container">
