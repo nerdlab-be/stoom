@@ -1,3 +1,60 @@
 ---
 layout: default
 ---
+
+<!-- Intro -->
+<div class="c-row c-row--alpha">
+    <div class="o-container">
+        <div class="o-grid o-grid--gutter">
+            <div class="o-grid__item u-2-of-3-bp3">
+                <h1>
+                    {{ page.header.intro }}
+                </h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="c-row c-row--alpha">
+    <div class="o-container">
+        <div class="o-grid o-grid--gutter">
+            <div class="o-grid__item u-2-of-3-bp3">
+                {{ page.body.text | markdownify }}
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Details -->
+<div class="c-row c-row--alpha">
+    <div class="o-container">
+        <h2>
+            {{ page.practical.title }}
+        </h2>
+        <div class="o-grid o-grid--gutter">
+            {% for item in page.practical.options %}
+            <div class="o-grid__item u-1-of-3-bp3">
+                <h3>{{ item.title }}</h3>
+                <h4>{{ item.cost }}</h4>
+                {{ item.text | markdownify }}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+<!-- CTA -->
+<div class="c-row c-row--alpha">
+    <div class="o-container">
+        <div class="o-grid o-grid--gutter">
+            <div class="o-grid__item">
+                <h1>
+                    {{ page.cta.title }}
+                </h1>
+                <p>
+                    <a href="{{ page.cta.button-url }}" class="c-button c-button--lg c-button--alpha">{{ page.cta.button }}</a> <a href="{{ page.cta.link-url }}">{{ page.cta.link }}</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

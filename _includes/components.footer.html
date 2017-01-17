@@ -1,14 +1,41 @@
+<!-- Partners -->
+<div class="c-row c-row--beta">
+    <div class="o-container">
+        <div class="o-grid o-grid--gutter">
+            <div class="o-grid__item">
+                <p><a href="{{ site.footer.project-url }}">{{ site.footer.project }}</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Partners -->
+<div class="c-row c-row--beta">
+    <div class="o-container">
+        <div class="o-grid o-grid--gutter">
+            {% for item in site.footer.partners %}
+            <div class="o-grid__item u-1-of-5-bp3">
+                <p>
+                    <a href="{{ item.url }}">{{ item.title }}</a>
+                </p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
 <footer class="c-row c-row--beta">
     <div class="o-container">
         <div class="o-grid">
             <div class="o-grid__item u-1-of-2-bp3">
-                <p><a href="http://nerdlab.be/">Nerdlab</a></p>
+                <p><a href="{{ site.footer.author-url }}">{{ site.footer.author }}</a></p>
             </div>
             <div class="o-grid__item u-1-of-2-bp3">
                 <ul class="o-list o-list--horizontal">
-                    <li class="o-list__item"><a href="#">Facebook</a></li>
-                    <li class="o-list__item"><a href="#">Twitter</a></li>
-                    <li class="o-list__item"><a href="#">Instagram</a></li>
+                    <li class="o-list__item"><a href="{{ site.footer.facebook-url }}">Facebook</a></li>
+                    <li class="o-list__item"><a href="{{ site.footer.twitter-url }}">Twitter</a></li>
+                    <li class="o-list__item"><a href="{{ site.footer.instagram-url }}">Instagram</a></li>
                 </ul>
             </div>
         </div>

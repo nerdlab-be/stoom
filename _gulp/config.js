@@ -31,9 +31,12 @@ module.exports = {
 
     js: {
         src : [  // source js file
-          path + 'js/theme.js',
-          path + 'js/_components/*.js',
-          path + 'js/loader.js'
+            path + 'vendor/svgxuse/svgxuse.min.js',
+            path + 'vendor/jquery/dist/jquery.min.js',
+            path + 'js/theme.js',
+            path + 'js/theme.js',
+            path + 'js/_components/*.js',
+            path + 'js/loader.js'
 
         ],
         concatFilename: 'theme.concat.js', // result filename
