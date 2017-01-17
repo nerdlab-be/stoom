@@ -2,6 +2,9 @@
 title: Stoom
 timezone: UTC
 collections:
+  agenda:
+    title: Agenda
+    output: false
   posts:
     title: Posts
     output: true
@@ -21,10 +24,10 @@ footer:
   instagram-url: https://www.instagram.com/nerdlab9000/
   partners:
   - title: Vlaamse overheid
-    img: 
+    img:
     url: http://www.vlaanderen.be/nl
   - title: Fisheye
-    img: 
+    img:
     url: http://fisheye.eu/
 permalink: pretty
 exclude:
