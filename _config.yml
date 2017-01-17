@@ -1,24 +1,31 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Meta data
-title: 'Stoom'
-author: 'Nerdlab'
-description: 'Wat als kunst en technologie samenkomen? Een vraag waar we bij Nerdlab vaak over nadenken, en waar we jou voor nodig hebben!'
-
-# Site navigation
-# navigation:
-#   - title: styleguide
-#     url: styleguide/
-#   - title: grid
-#     url: grid/
-
-# Jekyll settings
+---
+title: Stoom
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+author: Nerdlab
+description: Wat als kunst en technologie samenkomen? Een vraag waar we bij Nerdlab
+  vaak over nadenken, en waar we jou voor nodig hebben!
 permalink: pretty
-
-# Exclude these files from the build process
-exclude: ['_site','scss','*scss','Gem*','Guard*','*rb','.sass-cache','.git*','config.rb','*.md','*.json','docroot','node_modules','gulpfile.js','install.sh','lint.yml']
+exclude:
+- _site
+- scss
+- "*scss"
+- Gem*
+- Guard*
+- "*rb"
+- ".sass-cache"
+- ".git*"
+- config.rb
+- "*.md"
+- "*.json"
+- docroot
+- node_modules
+- gulpfile.js
+- install.sh
+- lint.yml
