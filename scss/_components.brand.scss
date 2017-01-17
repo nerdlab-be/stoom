@@ -14,7 +14,7 @@
     float: left;
     display: block;
     font-weight: bold;
-    @include text-dimensions($alpha-font-size,1,0,1.25,1.25);
+    @include text-dimensions($ms2,1,0,1.25,1.25);
 }
 
     .c-logo__link {
