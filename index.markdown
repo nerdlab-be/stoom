@@ -4,7 +4,7 @@ title: Nerdlab Stoom
 section: home
 header:
     intro: Wat als kunst en technologie samenkomen? Een vraag waar we bij Nerdlab vaak over nadenken, en waar we jou voor nodig hebben!
-body:
+details:
     text: |-
         **[Nerdlab](http://nerdlab.be/)** is een **open collectief** van **makers**. We bouwen installaties en machines, organiseren evenementen en veroveren de wereld. Oh, en daarnaast hebben we ook een fablab in Gent waar iedereen welkom is.
 
