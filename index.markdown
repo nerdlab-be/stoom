@@ -40,29 +40,31 @@ cta:
   link: Stel vragen aan Marlies
   link-url: mailto:marlies@nerdlab.be
 partners:
-  - title: Nerdlab
-    img:
-    url: "http://nerdlab.be/"
-  - title: Das Kunst
-    img:
-    url: "#!"
-  - title: Het Entropot
-    img:
-    url: "#!"
-  - title: The Looca
-    img:
-    url: "#!"
-  - title: Vlaamse overheid
-    img:
-    url: http://www.vlaanderen.be/nl
-  - title: Circa
-    img:
-    url: "#!"
+- title: Nerdlab
+  img: 
+  url: http://nerdlab.be/
+- title: Das Kunst
+  img: 
+  url: "#!"
+- title: Het Entropot
+  img: 
+  url: "#!"
+- title: The Looca
+  img: 
+  url: "#!"
+- title: Vlaamse overheid
+  img: 
+  url: http://www.vlaanderen.be/nl
+- title: Circa
+  img: 
+  url: "#!"
 project:
   title: Volg het Stoom project op Github
   link: Lees meer
   link-url: https://nerdlab-stoom.github.io/documentatie/
 about:
-  text: |-
-    **[Nerdlab](http://nerdlab.be/)** is een **open collectief** van **makers**. We bouwen installaties en machines, organiseren evenementen en veroveren de wereld. Oh, en daarnaast hebben we ook een fablab in Gent waar iedereen welkom is.
+  text: "**[Nerdlab](http://nerdlab.be/)** is een **open collectief** van **makers**.
+    We bouwen installaties en machines, organiseren evenementen en veroveren de wereld.
+    Oh, en daarnaast hebben we ook een fablab in Gent waar iedereen welkom is."
 ---
+
