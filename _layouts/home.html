@@ -43,26 +43,8 @@ layout: default
     </div>
 </div>
 
-<!-- Details -->
-<div class="c-row c-row--large c-row--beta">
-    <div class="o-container">
-        <h2>
-            {{ page.practical.title }}
-        </h2>
-        <div class="o-grid o-grid--gutter">
-            {% for item in page.practical.options %}
-            <div class="o-grid__item u-1-of-3-bp3">
-                <h3>{{ item.title }}</h3>
-                <h4>{{ item.cost }}</h4>
-                {{ item.text | markdownify }}
-            </div>
-            {% endfor %}
-        </div>
-    </div>
-</div>
-
 <!-- Agenda -->
-<div class="c-row c-row--large c-row--alpha">
+<div class="c-row c-row--large c-row--beta">
     <div class="o-container">
         <h2>
             {{ page.agenda.title }}
@@ -75,6 +57,24 @@ layout: default
                 <p>{{ page.agenda.workshop-title }} {{ item.workshop-date | date: "%b %-d, %Y" }}</p>
                 <p>{{ page.agenda.showoff-title }} {{ item.showoff-date | date: "%b %-d, %Y" }}</p>
                 {{ item.content }}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+<!-- Details -->
+<div class="c-row c-row--large c-row--alpha">
+    <div class="o-container">
+        <h2>
+            {{ page.practical.title }}
+        </h2>
+        <div class="o-grid o-grid--gutter">
+            {% for item in page.practical.options %}
+            <div class="o-grid__item u-1-of-3-bp3">
+                <h3>{{ item.title }}</h3>
+                <h4>{{ item.cost }}</h4>
+                {{ item.text | markdownify }}
             </div>
             {% endfor %}
         </div>
