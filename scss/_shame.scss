@@ -41,6 +41,7 @@
     left: 0;
     width: 100%;
     height: 100%;
+    overflow: visible;
 }
 
     .c-images__item {
@@ -53,8 +54,8 @@
             z-index: -1;
 
             &:nth-child(odd) {
-                right: -30%;
-                top: -5%;
+                right: -25%;
+                top: -30%;
             }
 
             &:nth-child(even) {
