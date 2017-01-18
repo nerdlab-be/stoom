@@ -56,6 +56,10 @@
 // Base colors
 $color-neutral                      : #aaa !default;
 
+// $color-alpha                        : #FF3333 !default;
+// $color-beta                         : #3366FF !default;
+// $color-gamma                        : #4E388D !default;
+
 $color-alpha                        : #FA5F4B !default;
 $color-beta                         : #6EC3C8 !default;
 $color-gamma                        : #4E388D !default;
@@ -74,7 +78,7 @@ $palettes: (
         x-dark                      : hsl(hue($color-neutral),0,10)
     ),
     color-alpha: (
-        light                       : hsl(hue($color-alpha),70,60),
+        light                       : tint($color-alpha,20),
         base                        : $color-alpha,
         dark                        : hsl(hue($color-alpha),100,25),
         x-dark                      : hsl(hue($color-alpha),100,15)
@@ -229,7 +233,7 @@ $html-responsive-font-size          : false !default;
 $html-responsive-font-breakpoint    : bp5 !default;
 $html-responsive-font-magnification : 112.5% !default;
 
-$html-background-color              : palette(color-neutral,light) !default;
+$html-background-color              : palette(color-neutral,x-light) !default;
 $body-color                         : palette(color-neutral,x-dark) !default;
 
 $body-font-smoothing                : true !default;

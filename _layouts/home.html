@@ -3,22 +3,22 @@ layout: default
 ---
 
 <!-- Intro -->
-<div class="c-row c-row--gamma c-row--full u-text-center">
-    <div class="o-grid c-graphic">
+<div class="c-row c-row--alpha c-row--full u-text-center js-hero">
+    <div class="o-grid c-graphic js-graphic">
         <div class="o-grid__item u-1-of-5 c-graphic__item-holder">
-            <img src="img/svg/s.svg" alt="" class="c-graphic__item c-graphic__item--one">
+            <img src="img/svg/s.svg" alt="" class="c-graphic__item c-graphic__item--one js-graphic__one">
         </div>
         <div class="o-grid__item u-1-of-5 c-graphic__item-holder">
-            <img src="img/svg/t.svg" alt="" class="c-graphic__item c-graphic__item--two">
+            <img src="img/svg/t.svg" alt="" class="c-graphic__item c-graphic__item--two js-graphic__two">
         </div>
         <div class="o-grid__item u-1-of-5 c-graphic__item-holder">
-            <img src="img/svg/o.svg" alt="" class="c-graphic__item c-graphic__item--three">
+            <img src="img/svg/o.svg" alt="" class="c-graphic__item c-graphic__item--three js-graphic__three">
         </div>
         <div class="o-grid__item u-1-of-5 c-graphic__item-holder">
-            <img src="img/svg/o.svg" alt="" class="c-graphic__item c-graphic__item--four">
+            <img src="img/svg/o.svg" alt="" class="c-graphic__item c-graphic__item--four js-graphic__four">
         </div>
         <div class="o-grid__item u-1-of-5 c-graphic__item-holder">
-            <img src="img/svg/m.svg" alt="" class="c-graphic__item c-graphic__item--five">
+            <img src="img/svg/m.svg" alt="" class="c-graphic__item c-graphic__item--five js-graphic__five">
         </div>
     </div>
     <div class="c-row__content">
@@ -33,14 +33,25 @@ layout: default
     </div>
 </div>
 
-<div class="c-row c-row--large c-row--alpha">
+<div class="c-row c-row--large">
     <div class="o-container">
         <div class="o-grid o-grid--gutter">
-            <div class="o-grid__item u-4-of-6-bp3 u-push-1-of-6-bp3">
-                {{ page.details.text | markdownify }}
+            <div class="o-grid__item u-4-of-6-bp4 u-push-1-of-6-bp4">
+                <div class="c-editor c-editor--special">
+                    {{ page.details.text | markdownify }}
+                </div>
+                <div class="c-images">
+                    <div class="c-images__item">
+                        <img src="img/jpg/fb_img_1484650241416.jpg" alt="">
+                    </div>
+                    <div class="c-images__item">
+                        <img src="img/jpg/fb_img_1484650212862.jpg" alt="">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
 </div>
 
 <!-- Agenda -->
@@ -94,6 +105,33 @@ layout: default
                 </p>
                 <p><a href="{{ page.cta.link-url }}">{{ page.cta.link }}</a></p>
             </div>
+        </div>
+    </div>
+</div>
+
+<!-- Project -->
+<div class="c-row c-row--beta u-text-center">
+    <div class="o-container">
+        <div class="o-grid o-grid--gutter">
+            <div class="o-grid__item">
+                <h5>{{ page.project.title }}</h5>
+                <p><a href="{{ page.project.link-url }}" class="c-link">{% include atom.symbol.html value="github" %} {{ page.project.link }}</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Partners -->
+<div class="c-row c-row--alpha">
+    <div class="o-container">
+        <div class="o-grid o-grid--gutter">
+            {% for item in page.partners %}
+            <div class="o-grid__item u-1-of-2 u-1-of-3-bp3 u-1-of-6-bp4 u-text-center">
+                <p>
+                    <a href="{{ item.url }}" class="c-link">{{ item.title }}</a>
+                </p>
+            </div>
+            {% endfor %}
         </div>
     </div>
 </div>

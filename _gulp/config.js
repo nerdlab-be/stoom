@@ -33,11 +33,11 @@ module.exports = {
         src : [  // source js file
             path + 'vendor/svgxuse/svgxuse.min.js',
             path + 'vendor/jquery/dist/jquery.min.js',
-            path + 'js/theme.js',
-            path + 'js/theme.js',
-            path + 'js/_components/*.js',
-            path + 'js/loader.js'
-
+            path + 'vendor/gsap/src/uncompressed/TweenMax.js',
+            path + 'vendor/scrollmagic/scrollmagic/uncompressed/ScrollMagic.js',
+            path + 'vendor/scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap.js',
+            path + 'vendor/scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators.js',
+            path + 'js/_components/*.js'
         ],
         concatFilename: 'theme.concat.js', // result filename
         jekyllJsDest: path + '_site/js/',

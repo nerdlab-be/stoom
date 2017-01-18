@@ -5,18 +5,30 @@
 */
 
 .c-row {
-    @include padding-tb($alpha-leading,0);
+    @include padding-tb($beta-leading,0);
     @include padding-lr($columns-gutter,$columns-gutter);
 }
 
 .c-row--large {
-    @include padding-tb($beta-leading*3,(($beta-leading*3) - $alpha-leading));
+    @include padding-tb($beta-leading*2,(($beta-leading*2) - $alpha-leading));
+
+    @include mq(bp3) {
+        @include padding-tb($beta-leading*3,(($beta-leading*3) - $alpha-leading));
+    }
 }
 
 .c-row--header {
-    position: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    z-index: map-get($z-indexes,beta);
+
+    opacity: 0;
+    transition: opacity .15s ease-in-out;
+
+    &.is-sticky {
+        opacity: 1;
+    }
 }
 
 .c-row--full {
@@ -41,13 +53,25 @@
 }
 
 .c-row--beta {
-    color: palette(color-neutral,dark);
+    position: relative;
+    z-index: 2;
+    color: palette(color-neutral,x-dark);
     background-color: tint(palette(color-alpha),85);
     border: 20px solid palette(color-neutral,x-light);
+
+    & + .c-row--gamma,
+    & + & {
+        border-top: 0;
+    }
 }
 
 .c-row--gamma {
-    color: palette(color-neutral,dark);
+    color: palette(color-neutral,x-dark);
     background-color: tint(palette(color-beta),85);
     border: 20px solid palette(color-neutral,x-light);
+
+    & + .c-row--beta,
+    & + & {
+        border-top: 0;
+    }
 }

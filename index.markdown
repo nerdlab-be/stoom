@@ -9,8 +9,6 @@ header:
   button-url: "#!"
 details:
   text: |-
-    **[Nerdlab](http://nerdlab.be/)** is een **open collectief** van **makers**. We bouwen installaties en machines, organiseren evenementen en veroveren de wereld. Oh, en daarnaast hebben we ook een fablab in Gent waar iedereen welkom is.
-
     Het komende jaar willen we samen met enthousiaste jongeren - zoals jij! - kijken wat er ontstaat als kunst en technologie botsen. Welkom bij STOOM! Aan de hand van workshops kijken we hoe je met een beamer kan mappen, zoeken we de limieten van onze 3D-printers op en gaan we aan de slag met licht. Jep, dat las je goed.
 
     Iedere dinsdag komen we samen om van elkaar te leren of om aan onze projecten te werken. Het resultaat ervan tonen we op vier evenementen, waaronder **‘[Bring Your Own Beamer](http://byobgent.nerdlab.be/)’** waar vorig jaar meer dan duizend bezoekers langs kwamen. Je kiest zelf of je een traject van een kwartaal of een volledig jaar volgt (Eén workshop meemaken kan ook, maar het is uiteraard fijner om aan een groter project te werken)!
@@ -41,5 +39,30 @@ cta:
   button-url: "#!"
   link: Stel vragen aan Marlies
   link-url: mailto:marlies@nerdlab.be
+partners:
+  - title: Nerdlab
+    img:
+    url: "http://nerdlab.be/"
+  - title: Das Kunst
+    img:
+    url: "#!"
+  - title: Het Entropot
+    img:
+    url: "#!"
+  - title: The Looca
+    img:
+    url: "#!"
+  - title: Vlaamse overheid
+    img:
+    url: http://www.vlaanderen.be/nl
+  - title: Circa
+    img:
+    url: "#!"
+project:
+  title: Volg het Stoom project op Github
+  link: Lees meer
+  link-url: https://nerdlab-stoom.github.io/documentatie/
+about:
+  text: |-
+    **[Nerdlab](http://nerdlab.be/)** is een **open collectief** van **makers**. We bouwen installaties en machines, organiseren evenementen en veroveren de wereld. Oh, en daarnaast hebben we ook een fablab in Gent waar iedereen welkom is.
 ---
-

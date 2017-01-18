@@ -7,8 +7,10 @@
 // Symbol
 .c-symbol {
     display: inline-block;
-    width: 1em;
-    height: 1em;
+    width: 1.2em;
+    height: 1.2em;
+    position: relative;
+    top: -.15ex;
     stroke-width: 0;
     stroke: currentColor;
     fill: currentColor;
