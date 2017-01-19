@@ -89,6 +89,12 @@ $palettes: (
         dark                        : hsl(hue($color-beta),100,25),
         x-dark                      : hsl(hue($color-beta),100,15)
     ),
+    color-gamma: (
+        light                       : hsl(hue($color-gamma),70,60),
+        base                        : $color-gamma,
+        dark                        : hsl(hue($color-gamma),100,25),
+        x-dark                      : hsl(hue($color-gamma),100,15)
+    ),
     color-error: (
         light                       : hsl(hue($color-error),70,60),
         base                        : $color-error,

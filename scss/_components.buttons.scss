@@ -106,7 +106,6 @@
     position: relative;
     background-color: transparent;
     border-color: palette(color-alpha);
-    z-index: 1;
 
     &,
     &:visited {
@@ -137,7 +136,7 @@
             palette(color-alpha) 3px,
             palette(color-alpha) 6px
         );
-        z-index: 0;
+        z-index: -1;
         opacity: .2;
     }
 

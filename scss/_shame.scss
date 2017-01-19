@@ -96,3 +96,44 @@
         color: palette(color-alpha,light);
     }
 }
+
+.c-list-nav {
+}
+
+    .c-list-nav__item {
+        & + & {
+            margin-left: 2em;
+        }
+    }
+
+.c-link-nav {
+    position: relative;
+    display: block;
+    font-weight: $alpha-font-weight;
+    font-family: $beta-font-family;
+    @include text-dimensions($ms3,1.5);
+    @include padding-tb(1,0);
+
+
+    &,
+    &:visited {
+        color: palette(color-alpha);
+    }
+
+    &:hover,
+    &:focus {
+        text-decoration: none;
+        color: palette(color-alpha);
+
+        &:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 6px;
+            width: 100%;
+            height: 2px;
+            background-color: palette(color-alpha);
+        }
+
+    }
+}

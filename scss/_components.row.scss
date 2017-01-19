@@ -22,13 +22,9 @@
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 2;
 
-    opacity: 0;
     transition: opacity .15s ease-in-out;
-
-    &.is-sticky {
-        opacity: 1;
-    }
 }
 
 .c-row--full {
@@ -43,7 +39,7 @@
             position: absolute;
             left: 0;
             width: 100%;
-            top: 50%;
+            top: 60%;
             transform: translateY(-50%);
         }
     }
@@ -74,4 +70,22 @@
     & + & {
         border-top: 0;
     }
+}
+
+.c-row--delta {
+    position: relative;
+    color: palette(color-neutral,x-dark);
+    // background-color: tint(palette(color-alpha),90);
+    // border: 10px solid palette(color-neutral,x-light);
+    // margin: 10px;
+
+    // &:after {
+    //     content: '';
+    //     position: absolute;
+    //     height: 100%;
+    //     width: 100%;
+    //     left: 0;
+    //     top: 0;
+    //     border: 20px solid palette(color-neutral,x-light);
+    // }
 }
