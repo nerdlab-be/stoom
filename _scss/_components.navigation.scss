@@ -1,0 +1,66 @@
+/*
+    Components: Navigation
+    ---
+    Site navigation, breadcrumbs, etc.
+*/
+
+.c-nav {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    @include margin-tb(3,2);
+
+    @include mq(bp3) {
+        @include margin-tb(0,0);
+    }
+}
+
+    .c-nav__item {
+        display: block;
+        text-align: center;
+
+        & + & {
+            @include margin-top(.5);
+        }
+
+        @include mq(bp3) {
+            display: inline-block;
+
+            & + & {
+                @include margin-top(0);
+                @include margin-left(2);
+            }
+        }
+    }
+
+    .c-nav__link {
+        position: relative;
+        display: inline-block;
+        font-weight: $alpha-font-weight;
+        font-family: $beta-font-family;
+        @include text-dimensions($ms3,1.3,0,0);
+        text-shadow: 0 2px 0 palette(color-neutral,x-light), -2px 0 0 palette(color-neutral,x-light), -2px 2px 0 palette(color-neutral,x-light), 2px 2px 0 palette(color-neutral,x-light);
+
+        &,
+        &:visited {
+            color: palette(color-beta);
+        }
+
+        &:before {
+            z-index: -1;
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 7px;
+            width: 100%;
+            height: 2px;
+            background-color: tint($color-beta, 20);
+        }
+
+        &:hover,
+        &:focus {
+            text-decoration: none;
+            color: palette(color-beta);
+            outline: none;
+        }
+    }

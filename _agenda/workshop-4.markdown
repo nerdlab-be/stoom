@@ -1,5 +1,5 @@
 ---
-title: Workshop 4
+title: BYOB
 date: 2017-01-17 10:32:00 Z
 workshop-date: 2017-01-28 00:00:00 Z
 showoff-date: 2017-01-31 00:00:00 Z

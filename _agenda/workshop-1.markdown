@@ -1,5 +1,5 @@
 ---
-title: Workshop 1
+title: RGB VS CMYK
 date: 2017-01-17 10:20:00 Z
 workshop-date: 2017-01-17 00:00:00 Z
 showoff-date: 2017-01-27 00:00:00 Z

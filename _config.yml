@@ -16,8 +16,8 @@ defaults:
     path: ''
     type: agenda
   values:
-    workshop-date: 
-    showoff-date: 
+    workshop-date:
+    showoff-date:
 author: Nerdlab
 description: Wat als kunst en technologie samenkomen? Een vraag waar we bij Nerdlab
   vaak over nadenken, en waar we jou voor nodig hebben!
@@ -42,8 +42,6 @@ exclude:
 - LICENSE.md
 - CONTRIBUTING.md
 - "*.json"
-- docroot
 - node_modules
 - gulpfile.js
-- install.sh
-- lint.yml
+- vendor.yml

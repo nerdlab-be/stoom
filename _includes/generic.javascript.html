@@ -1,2 +1,5 @@
-<!-- Theme specific JavaScript. Add your other scripts here -->
-<script src="{{ site.github.url }}/js/theme.concat.js"></script>
+{% if jekyll.environment == "production" %}
+<script src="{{ site.github.url }}/js/theme.min.js"></script>
+{% else %}
+<script src="{{ site.github.url }}/js/theme.js"></script>
+{% endif %}

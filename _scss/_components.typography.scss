@@ -1,0 +1,74 @@
+.c-page-intro {
+    @include text-dimensions($ms4,1.3,1.5);
+    color: $color-alpha;
+    max-width: 18em;
+    margin-left: auto;
+    margin-right: auto;
+
+    @include mq(bp2) {
+        @include text-dimensions($ms5,1.5);
+    }
+
+    @include mq(bp3) {
+        @include text-dimensions($ms7,2);
+    }
+
+    @include mq(bp5) {
+        margin-left: 0;
+        margin-right: 0;
+        @include text-dimensions($ms9,2.7,3);
+        @include padding-right(2);
+    }
+}
+
+.c-subtitle {
+    color: palette(color-neutral,x-light);
+    @include text-dimensions($ms9,2.7,1);
+    text-align: center;
+
+    @include mq(bp3) {
+        @include text-dimensions($ms12,2.7,3);
+    }
+}
+
+.c-subtitle--beta {
+    @include margin-top(3);
+    @include margin-bottom(1);
+
+    color: palette(color-alpha);
+
+    @include mq(bp3) {
+        @include margin-top(10);
+        @include margin-bottom(2);
+    }
+}
+
+.c-date-large {
+    font-family: $beta-font-family;
+    font-weight: $alpha-font-weight;
+}
+
+.c-date-small {
+    @include text-dimensions($ms0,1,0);
+    font-family: $beta-font-family;
+    font-weight: $beta-font-weight;
+    color: $color-alpha;
+    background-color: rgba(palette(color-alpha,light),.3);
+    // background-image: repeating-linear-gradient(
+    //     -45deg,
+    //     transparent,
+    //     transparent 4px,
+    //     rgba(palette(color-alpha,light),.3) 4px,
+    //     rgba(palette(color-alpha,light),.3) 10px
+    // );
+    @include padding-tb(.3,.1);
+}
+
+.c-title-beta {
+    color: palette(color-beta);
+}
+
+.c-divider {
+    border-top: 4px solid white;
+    @include margin-tb(4,4);
+}

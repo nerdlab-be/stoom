@@ -1,0 +1,143 @@
+/*
+    Shame
+    ---
+    Hacks and quick fixes
+*/
+
+.c-editor {
+    a {
+        position: relative;
+
+        &:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 2px;
+            background-color: palette(color-neutral,x-dark);
+        }
+
+        &,
+        &:visited {
+            color: palette(color-neutral,x-dark);
+        }
+
+        &:hover,
+        &:focus {
+            text-decoration: none;
+            color: palette(color-neutral,x-dark);
+
+            &:after {
+                display: none;
+            }
+        }
+    }
+}
+
+.c-images {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+}
+
+    .c-images__item {
+        display: none;
+
+        @include mq(bp4) {
+            display: block;
+            width: 40%;
+            position: absolute;
+            z-index: -1;
+
+            &:nth-child(odd) {
+                right: -23%;
+                top: -40%;
+            }
+
+            &:nth-child(even) {
+                left: -23%;
+                top: 45%;
+            }
+        }
+    }
+
+.c-editor--special {
+    p {
+        position: relative;
+    }
+
+    @include mq(bp4) {
+        p {
+            @include text-dimensions($ms3,1.5,6);
+        }
+
+        p:last-child {
+            @include margin-bottom(3);
+        }
+
+        p:nth-child(even) {
+            position: relative;
+            left: 20%;
+        }
+
+        p:nth-child(odd) {
+            position: relative;
+            left: -20%;
+        }
+    }
+}
+
+.c-link {
+    font-weight: $beta-font-weight;
+
+    &,
+    &:visited {
+        color: palette(color-neutral,x-dark);
+    }
+
+    &:hover,
+    &:focus {
+        text-decoration: none;
+        color: palette(color-neutral,x-dark);
+    }
+}
+
+.c-link-alt {
+    font-weight: $beta-font-weight;
+
+    &:hover,
+    &:focus {
+        text-decoration: none;
+    }
+}
+
+.c-link-beta {
+    font-weight: $beta-font-weight;
+
+    &,
+    &:visited {
+        color: palette(color-beta);
+    }
+
+    &:hover,
+    &:focus {
+        text-decoration: none;
+        color: palette(color-beta);
+    }
+}
+
+    .c-link__icon {
+        display: inline-block;
+        width: 1.2em;
+        height: 1.2em;
+        position: relative;
+        top: -.15ex;
+        stroke-width: 0;
+        stroke: currentColor;
+        fill: currentColor;
+        vertical-align: middle;
+    }
