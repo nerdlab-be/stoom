@@ -15,7 +15,7 @@ agenda:
   workshop-title: Workshop op
   showoff-title: Toonmoment op
 practical:
-  title: 'Doe mee!'
+  title: Doe mee!
   options:
   - title: 1 kwartaal
     cost: "€35"
@@ -59,3 +59,4 @@ about:
     Oh, en daarnaast hebben we ook een fablab in Gent waar iedereen welkom is."
 layout: home
 ---
+
