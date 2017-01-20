@@ -54,7 +54,7 @@
 }
 
 // Base colors
-$color-neutral                      : #aaa !default;
+$color-neutral                      : #676E79 !default;
 
 // $color-alpha                        : #FF3333 !default;
 // $color-beta                         : #3366FF !default;
@@ -71,20 +71,20 @@ $color-notice                       : #FF851B !default;
 // Palettes
 $palettes: (
     color-neutral: (
-        x-light                     : hsl(hue($color-neutral),0,100),
-        light                       : hsl(hue($color-neutral),0,90),
+        x-light                     : #ffffff,
+        light                       : tint($color-neutral,30),
         base                        : $color-neutral,
-        dark                        : hsl(hue($color-neutral),0,30),
-        x-dark                      : hsl(hue($color-neutral),0,10)
+        dark                        : shade($color-neutral,30),
+        x-dark                      : shade($color-neutral,50)
     ),
     color-alpha: (
-        light                       : tint($color-alpha,30),
+        light                       : tint($color-alpha,10),
         base                        : $color-alpha,
         dark                        : shade($color-alpha,25),
         x-dark                      : shade($color-alpha,15)
     ),
     color-beta: (
-        light                       : hsl(hue($color-beta),70,60),
+        light                       : tint($color-beta,10),
         base                        : $color-beta,
         dark                        : shade($color-beta,25),
         x-dark                      : shade($color-beta,15)
@@ -213,7 +213,7 @@ $increments: (
     beta                            : .5,
     gamma                           : 1,
     delta                           : 1.5,
-    epsilon                         : 2
+    epsilon                         : 3
 ) !default;
 
 // ---

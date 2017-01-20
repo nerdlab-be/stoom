@@ -12061,6 +12061,43 @@ $heroHeight = $('.js-hero').height();
 //     .addTo(controller);
 // }
 
+// if ($('.js-one')[0] != undefined) {
+//     var scene0 = new ScrollMagic.Scene({
+//         triggerElement: ".js-one",
+//     })
+//     .setClassToggle(".js-body", "c-color--alpha")
+//     .addIndicators()
+//     .addTo(controller);
+// }
+
+if ($('.js-two')[0] != undefined) {
+    var scene0 = new ScrollMagic.Scene({
+        triggerElement: ".js-two",
+    })
+    .setClassToggle(".js-body", "c-color--alpha")
+    // .addIndicators()
+    .addTo(controller);
+}
+
+if ($('.js-three')[0] != undefined) {
+    var scene0 = new ScrollMagic.Scene({
+        triggerElement: ".js-three",
+    })
+    .setClassToggle(".js-body", "c-color--beta")
+    // .addIndicators()
+    .addTo(controller);
+}
+
+if ($('.js-four')[0] != undefined) {
+    var scene0 = new ScrollMagic.Scene({
+        triggerElement: ".js-four",
+    })
+    .setClassToggle(".js-body", "c-color--gamma")
+    // .addIndicators()
+    .addTo(controller);
+}
+
+
 $scrollHeight = $heroHeight/3;
 
 // Letters animation

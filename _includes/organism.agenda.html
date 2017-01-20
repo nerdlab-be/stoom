@@ -1,4 +1,4 @@
-<div class="c-row c-row--large c-row--beta" id="agenda">
+<div class="c-row c-row--large js-two" id="agenda">
     <div class="o-container">
         <h2 class="c-subtitle">
             {{ page.agenda.title }}
@@ -7,7 +7,7 @@
             {% assign agenda = site.agenda | sort: 'position' %}
             {% for item in agenda %}
             <div class="o-grid__item u-1-of-2-bp3 u-1-of-4-bp5">
-                <div class="c-card c-card--alpha" data-mh="agenda">
+                <div class="c-card c-card--alpha" data-mh="agenda" style="background-image: url({{ item.image }})">
                     <h3 class="u-text-center">{{ item.title }}</h3>
                     <p class="c-date-large u-text-center">{{ page.agenda.workshop-title }} {{ item.workshop-date | date: "%-d/%-m/%Y" }}</p>
                     {{ item.content }}

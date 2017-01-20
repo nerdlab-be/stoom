@@ -109,22 +109,18 @@
 .c-button--alpha {
     position: relative;
     background-color: transparent;
-    border-color: palette(color-alpha);
     z-index: 3;
 
     &,
     &:visited {
-        color: palette(color-alpha);
+        color: palette(color-neutral,x-dark);
+        border-color: palette(color-neutral,x-dark);
     }
 
     &:hover,
     &:focus {
-        background-color: palette(color-alpha);
+        background-color: palette(color-neutral,x-dark);
         color: palette(color-neutral,x-light);
-    }
-
-    &:active {
-        background-color: palette(color-alpha);
     }
 
     &:before {
@@ -135,17 +131,89 @@
         top: 6px;
         width: calc(100% + 4px);
         height: calc(100% + 4px);
-        background: repeating-linear-gradient(
+        background-image: repeating-linear-gradient(
             -45deg,
             transparent,
             transparent 4px,
-            palette(color-alpha) 4px,
-            palette(color-alpha) 6px
+            palette(color-neutral,x-dark) 4px,
+            palette(color-neutral,x-dark) 6px
         );
         z-index: -1;
         opacity: .2;
     }
 
+
+    .c-color & {
+        &,
+        &:visited {
+            color: palette(color-neutral,x-dark);
+            border-color: palette(color-neutral,x-dark);
+        }
+
+        &:hover,
+        &:focus {
+            background-color: palette(color-neutral,x-dark);
+            color: palette(color-neutral,x-light);
+        }
+
+        &:before {
+            background-image: repeating-linear-gradient(
+                -45deg,
+                transparent,
+                transparent 4px,
+                palette(color-neutral,x-dark) 4px,
+                palette(color-neutral,x-dark) 6px
+            );
+        }
+    }
+
+    .c-color--beta & {
+        &,
+        &:visited {
+            color: palette(color-alpha);
+            border-color: palette(color-alpha);
+        }
+
+        &:hover,
+        &:focus {
+            background-color: palette(color-alpha);
+            color: palette(color-neutral,x-light);
+        }
+
+        &:before {
+            background-image: repeating-linear-gradient(
+                -45deg,
+                transparent,
+                transparent 4px,
+                palette(color-alpha) 4px,
+                palette(color-alpha) 6px
+            );
+        }
+    }
+
+    .c-color--gamma & {
+        &,
+        &:visited {
+            color: palette(color-neutral,x-dark);
+            border-color: palette(color-neutral,x-dark);
+        }
+
+        &:hover,
+        &:focus {
+            background-color: palette(color-neutral,x-dark);
+            color: palette(color-neutral,x-light);
+        }
+
+        &:before {
+            background-image: repeating-linear-gradient(
+                -45deg,
+                transparent,
+                transparent 4px,
+                palette(color-neutral,x-dark) 4px,
+                palette(color-neutral,x-dark) 6px
+            );
+        }
+    }
 }
 
 .c-button--beta {

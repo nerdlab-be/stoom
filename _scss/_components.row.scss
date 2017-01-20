@@ -34,7 +34,8 @@
 }
 
 .c-row--header {
-
+    position: relative;
+    z-index: 3;
 }
 
 .c-row--full {
@@ -43,11 +44,11 @@
     text-align: center;
 
     @include mq(bp3) {
-        @include padding-tb(10,2);
+        @include padding-tb(8,2);
     }
 
     @include mq(bp4) {
-        @include padding-tb(10,10);
+        @include padding-tb(8,10);
     }
 
     @include mq(bp5) {

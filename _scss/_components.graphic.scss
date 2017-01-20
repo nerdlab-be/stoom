@@ -1,5 +1,5 @@
 .c-graphic {
-    position: absolute;
+    position: fixed;
     height: 100%;
     width: 100%;
     top: 0;
@@ -16,9 +16,39 @@
     .c-graphic__item {
         position: absolute;
         left: 0;
-        opacity: .3;
+        opacity: .5;
         width: 100%;
         will-change: transform;
+
+        .c-color & {
+            svg g {
+                stroke: palette(color-alpha);
+            }
+        }
+
+        .c-color--alpha & {
+            opacity: .3;
+
+            svg g {
+                stroke: palette(color-beta);
+            }
+        }
+
+        .c-color--beta & {
+            opacity: .3;
+
+            svg g {
+                stroke: palette(color-alpha);
+            }
+        }
+
+        .c-color--gamma & {
+            opacity: .2;
+
+            svg g {
+                stroke: palette(color-neutral);
+            }
+        }
 
         svg {
             width: 80%;
@@ -26,7 +56,7 @@
 
         svg > g {
             stroke-width: 24px !important;
-            stroke: $color-beta !important;
+            stroke: palette(color-neutral,x-dark);
         }
 
         @include mq(bp3) {
@@ -84,7 +114,7 @@
     .c-illustration__item {
         position: absolute;
         left: 35%;
-        top: 12%;
+        top: 10%;
         opacity: .2;
         width: 100%;
     }

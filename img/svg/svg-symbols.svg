@@ -1,4 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" class="c-symbol-set">
+    <symbol id="contact" viewBox="0 0 44 44">
+      <title>contact symbol</title>
+      <path fill-rule="evenodd" d="M35.521 8.479H8.48a3.365 3.365 0 0 0-3.364 3.38L5.098 32.14a3.38 3.38 0 0 0 3.38 3.38h27.043a3.38 3.38 0 0 0 3.38-3.38V11.86a3.38 3.38 0 0 0-3.38-3.38zm0 6.76L22 23.69 8.479 15.24v-3.381L22 20.309l13.521-8.45v3.38z"/>
+    </symbol>
     <symbol id="facebook" viewBox="0 0 44 44">
       <title>facebook symbol</title>
       <path fill-rule="evenodd" d="M24.753 12.885c0-1.086.87-1.967 1.944-1.967h3.887V5.346h-4.859c-3.936 0-7.126 3.229-7.126 7.211v4.916h-5.183v5.9H18.6v15.405h6.154V23.373h5.183l.648-5.9h-5.83v-4.588z"/>

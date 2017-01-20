@@ -1,5 +1,5 @@
-<footer class="c-row c-row--large c-row--alpha u-text-center">
-    <div class="o-container">
+<footer class="c-row c-row--large u-text-center js-four">
+    <div class="o-container c-relative">
         <div class="o-grid o-grid--gutter">
             <div class="o-grid__item u-4-of-6-bp3 u-push-1-of-6-bp3">
                 <h4><a href="{{ site.footer.author-url }}" class="c-nerdlab">{{ site.footer.author }}</a></h4>
@@ -21,3 +21,17 @@
         </div>
     </div>
 </footer>
+
+<div class="c-row c-row--large" id="partners">
+    <div class="o-container c-relative">
+        <div class="o-grid o-grid--gutter">
+            {% for item in page.partners %}
+            <div class="o-grid__item u-1-of-2 u-1-of-4-bp4 u-text-center">
+                <p>
+                    <a href="{{ item.url }}" class="c-link-logo" style="background-image: url({{ item.image }})">{{ item.title }}</a>
+                </p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

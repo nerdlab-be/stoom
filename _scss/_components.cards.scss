@@ -18,22 +18,56 @@
 
 .c-card--alpha {
     position: relative;
-    z-index: 2;
-    color: palette(color-alpha,dark);
-    border: 8px solid rgba(palette(color-alpha,light),.3);
-
-    &:after {
-        content: ''
-    }
+    border: 8px solid currentColor;
 }
 
 .c-card--beta {
     position: relative;
-    z-index: 2;
-    color: palette(color-beta,dark);
-    border: 8px solid rgba(palette(color-beta,light),.3);
+    @include padding-tb(2,1.5);
+    @include padding-lr(0,0);
 
-    &:after {
-        content: ''
+    @include mq(bp3) {
+        @include padding-tb(1,0);
+        @include padding-lr(1.5,1.5);
+    }
+}
+
+.c-card-divider {
+    .c-color & + & {
+        border-top: 4px dotted palette(color-neutral,light);
+    }
+
+    .c-color--alpha & + & {
+        border-top: 4px dotted palette(color-beta,light);
+    }
+
+    .c-color--beta & + & {
+        border-top: 4px dotted palette(color-alpha,light);
+    }
+
+    .c-color--gamma & + & {
+        border-top: 4px dotted palette(color-neutral,light);
+    }
+
+    @include mq(bp3) {
+        .c-color &  + & {
+            border-left: 4px dotted palette(color-neutral,light);
+            border-top: 0;
+        }
+
+        .c-color--alpha &  + & {
+            border-left: 4px dotted palette(color-beta,light);
+            border-top: 0;
+        }
+
+        .c-color--beta &  + & {
+            border-left: 4px dotted palette(color-alpha,light);
+            border-top: 0;
+        }
+
+        .c-color--gamma &  + & {
+            border-left: 4px dotted palette(color-neutral,light);
+            border-top: 0;
+        }
     }
 }

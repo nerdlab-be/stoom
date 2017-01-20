@@ -4,7 +4,13 @@
     Hacks and quick fixes
 */
 
+.c-relative {
+    position: relative;
+    z-index: 1;
+}
+
 .c-editor {
+
     a {
         position: relative;
 
@@ -33,6 +39,98 @@
             }
         }
     }
+
+    .c-color & {
+        a {
+            &:after {
+                background-color: palette(color-neutral,x-dark);
+            }
+
+            &,
+            &:visited {
+                color: palette(color-neutral,x-dark);
+            }
+
+            &:hover,
+            &:focus {
+                text-decoration: none;
+                color: palette(color-neutral,x-dark);
+
+                &:after {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .c-color--alpha & {
+        a {
+            &:after {
+                background-color: palette(color-beta,dark);
+            }
+
+            &,
+            &:visited {
+                color: palette(color-beta,dark);
+            }
+
+            &:hover,
+            &:focus {
+                text-decoration: none;
+                color: palette(color-beta,dark);
+
+                &:after {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .c-color--beta & {
+        a {
+            &:after {
+                background-color: palette(color-alpha,dark);
+            }
+
+            &,
+            &:visited {
+                color: palette(color-alpha,dark);
+            }
+
+            &:hover,
+            &:focus {
+                text-decoration: none;
+                color: palette(color-alpha,dark);
+
+                &:after {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .c-color--gamma & {
+        a {
+            &:after {
+                background-color: palette(color-neutral,x-dark);
+            }
+
+            &,
+            &:visited {
+                color: palette(color-neutral,x-dark);
+            }
+
+            &:hover,
+            &:focus {
+                text-decoration: none;
+                color: palette(color-neutral,x-dark);
+
+                &:after {
+                    display: none;
+                }
+            }
+        }
+    }
 }
 
 .c-images {
@@ -42,6 +140,7 @@
     width: 100%;
     height: 100%;
     overflow: visible;
+    z-index: -1;
 }
 
     .c-images__item {
@@ -92,26 +191,58 @@
 }
 
 .c-link {
-    font-weight: $beta-font-weight;
+    font-weight: 700;
 
     &,
     &:visited {
-        color: palette(color-neutral,x-dark);
+        color: palette(color-alpha);
     }
 
     &:hover,
     &:focus {
         text-decoration: none;
-        color: palette(color-neutral,x-dark);
+        color: palette(color-alpha,light);
+    }
+
+    .c-color--gamma & {
+        &,
+        &:visited {
+            color: palette(color-neutral,x-dark);
+        }
+
+        &:hover,
+        &:focus {
+            text-decoration: none;
+            color: palette(color-neutral,dark);
+        }
     }
 }
 
 .c-link-alt {
-    font-weight: $beta-font-weight;
+    font-weight: 700;
+
+    &,
+    &:visited {
+        color: palette(color-alpha);
+    }
 
     &:hover,
     &:focus {
         text-decoration: none;
+        color: palette(color-alpha,light);
+    }
+
+    .c-color--gamma & {
+        &,
+        &:visited {
+            color: palette(color-neutral,x-dark);
+        }
+
+        &:hover,
+        &:focus {
+            text-decoration: none;
+            color: palette(color-neutral,dark);
+        }
     }
 }
 
@@ -120,13 +251,13 @@
 
     &,
     &:visited {
-        color: palette(color-beta);
+        color: palette(color-neutral,x-dark);
     }
 
     &:hover,
     &:focus {
         text-decoration: none;
-        color: palette(color-beta);
+        color: palette(color-neutral,x-dark);
     }
 }
 
