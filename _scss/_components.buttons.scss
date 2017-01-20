@@ -216,46 +216,6 @@
     }
 }
 
-.c-button--beta {
-    position: relative;
-    background-color: transparent;
-    border-color: palette(color-beta);
-    z-index: 1;
-
-    &,
-    &:visited {
-        color: palette(color-beta);
-    }
-
-    &:hover,
-    &:focus {
-        background-color: palette(color-beta);
-        color: palette(color-neutral,x-light);
-    }
-
-    &:active {
-        background-color: palette(color-beta);
-    }
-
-    &:before {
-        content: '';
-        position: absolute;
-        left: 6px;
-        top: 6px;
-        width: calc(100% + 4px);
-        height: calc(100% + 4px);
-        background: repeating-linear-gradient(
-            -45deg,
-            transparent,
-            transparent 3px,
-            palette(color-beta) 3px,
-            palette(color-beta) 6px
-        );
-        z-index: 0;
-        opacity: .2;
-    }
-}
-
 // Modifiers
 
 .c-button--postfix {
