@@ -1,23 +1,11 @@
 <!DOCTYPE html>
 <html>
-
 {% include generic.head.html %}
-
 <body class="js-body c-color">
-
-    <!-- Page header -->
     {% include organism.header.html %}
-    <!-- End page header -->
-
     {{ content }}
-
-    <!-- Page footer -->
     {% include organism.footer.html %}
-    <!-- End page footer -->
-
-    <!-- Footer javascript -->
+    {% include generic.analytics.html %}
     {% include generic.javascript.html %}
-    <!-- End footer javascript -->
-
 </body>
 </html>
