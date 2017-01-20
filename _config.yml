@@ -16,10 +16,11 @@ defaults:
     path: ''
     type: agenda
   values:
-    workshop-date:
-    showoff-date:
+    workshop-date: 
+    showoff-date: 
 author: Nerdlab
-description: Wat als kunst en technologie samenkomen? Een vraag waar we bij Nerdlab vaak over nadenken, en waar we jou voor nodig hebben!
+description: Wat als kunst en technologie samenkomen? Een vraag waar we bij Nerdlab
+  vaak over nadenken, en waar we jou voor nodig hebben!
 baseline: Wat als kunst en technologie samenkomen?
 url: http://stoom.nerdlab.be
 twitter: NerdLab9000
