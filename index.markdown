@@ -39,9 +39,6 @@ cta:
   link: Stel vragen aan Marlies
   link-url: mailto:marlies@nerdlab.be
 partners:
-- title: Nerdlab
-  image: "/uploads/nerdlab.png"
-  url: http://nerdlab.be/
 - title: Das Kunst
   image: "/uploads/daskunst.png"
   url: http://daskunst.be/
@@ -54,9 +51,6 @@ partners:
 - title: Vlaamse overheid
   image: "/uploads/vlaamseoverheid.png"
   url: http://www.vlaanderen.be/nl
-- title: Circa
-  image: 
-  url: "#!"
 project:
   link: Volg het Stoom project op Github
   link-url: https://nerdlab-stoom.github.io/documentatie/
@@ -66,4 +60,3 @@ about:
     Oh, en daarnaast hebben we ook een fablab in Gent waar iedereen welkom is."
 layout: home
 ---
-

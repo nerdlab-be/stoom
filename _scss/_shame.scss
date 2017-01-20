@@ -149,4 +149,5 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    @include margin-tb(2,2);
 }
