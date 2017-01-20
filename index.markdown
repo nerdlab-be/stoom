@@ -1,6 +1,5 @@
 ---
 title: Nerdlab Stoom
-layout: home
 section: home
 header:
   intro: Wat als kunst en technologie samenkomen? Een vraag waar we bij Nerdlab vaak
@@ -41,22 +40,22 @@ cta:
   link-url: mailto:marlies@nerdlab.be
 partners:
 - title: Nerdlab
-  img: 
+  image: "/uploads/nerdlab.png"
   url: http://nerdlab.be/
 - title: Das Kunst
-  img: 
-  url: "#!"
-- title: Het Entropot
-  img: 
-  url: "#!"
+  image: "/uploads/daskunst.png"
+  url: http://daskunst.be/
+- title: Het Entrepot
+  image: "/uploads/hetentrepot.png"
+  url: http://www.hetentrepot.be/
 - title: The Looca
-  img: 
-  url: "#!"
+  image: "/uploads/thelooca.png"
+  url: https://www.thelooca.be/
 - title: Vlaamse overheid
-  img: 
+  image: "/uploads/vlaamseoverheid.png"
   url: http://www.vlaanderen.be/nl
 - title: Circa
-  img: 
+  image: 
   url: "#!"
 project:
   link: Volg het Stoom project op Github
@@ -65,5 +64,6 @@ about:
   text: "**[Nerdlab](http://nerdlab.be/)** is een **open collectief** van **makers**.
     We bouwen installaties en machines, organiseren evenementen en veroveren de wereld.
     Oh, en daarnaast hebben we ook een fablab in Gent waar iedereen welkom is."
+layout: home
 ---
 
