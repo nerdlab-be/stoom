@@ -1,5 +1,7 @@
 .c-color {
     color: palette(color-neutral,x-dark);
+    background-color: palette(color-neutral,x-light);
+    transition: background-color .3s linear;
 }
 
 .c-color--alpha {
