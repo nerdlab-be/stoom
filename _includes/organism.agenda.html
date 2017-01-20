@@ -6,15 +6,12 @@
         <div class="o-grid o-grid--gutter-sm">
             {% assign agenda = site.agenda | sort: 'position' %}
             {% for item in agenda %}
-            <div class="o-grid__item u-1-of-2-bp3 u-1-of-4-bp5">
+            <div class="o-grid__item u-1-of-2-bp3 u-1-of-4-bp5 ">
                 <div class="c-card c-card--alpha" data-mh="agenda">
-                    <div class="c-card__image">
-                        <img src="{{ item.image}}" alt="">
-                    </div>
-                    <h3 class="u-text-center">{{ item.title }}</h3>
-                    <p class="c-date-large u-text-center">{{ page.agenda.workshop-title }} {{ item.workshop-date | date: "%-d/%-m/%Y" }}</p>
+                    <h3 class="c-title-card u-text-center">{{ item.title }}</h3>
+                    <p class="c-date-large u-text-center">{{ item.workshop-date | date: "%-d/%m/%Y" }}</p>
                     {{ item.content }}
-                    <p class="c-date-small u-text-center">{{ page.agenda.showoff-title }} {{ item.showoff-date | date: "%-d/%-m/%Y" }}</p>
+                    <p class="c-date-small u-text-center">{{ page.agenda.showoff-title }} {{ item.showoff-date | date: "%-d/%m/%Y" }}</p>
                 </div>
             </div>
             {% endfor %}

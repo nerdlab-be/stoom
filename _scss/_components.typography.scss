@@ -37,9 +37,30 @@
     }
 }
 
+.c-title-card {
+    font-family: $beta-font-family;
+    font-weight: $beta-font-weight;
+    @include text-dimensions($ms4,1.5,0);
+    position: relative;
+
+    &:after {
+        position: relative;
+        content: '';
+        background-color: currentColor;
+        width: 30px;
+        height: 3px;
+        display: block;
+        top: 3px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
 .c-date-large {
     font-family: $beta-font-family;
-    font-weight: $alpha-font-weight;
+    font-weight: $beta-font-weight;
+    @include text-dimensions($ms3,1);
+    @include margin-bottom(1);
 }
 
 .c-date-small {
@@ -47,6 +68,20 @@
     @include padding-tb(.3,.1);
     font-family: $beta-font-family;
     font-weight: $beta-font-weight;
+
+
+    .c-color & {
+        color: palette(color-neutral,x-light);
+        background-color: palette(color-neutral,x-dark);
+    }
+
+    .c-color--alpha & {
+        background-color: palette(color-beta);
+    }
+
+    .c-color--beta & {
+        background-color: palette(color-alpha);
+    }
 }
 
 .c-title-beta {
