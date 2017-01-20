@@ -27,10 +27,10 @@
         }
 
         .c-color--alpha & {
-            opacity: .3;
+            opacity: .4;
 
             svg g {
-                stroke: palette(color-beta);
+                stroke: palette(color-neutral,x-light);
             }
         }
 

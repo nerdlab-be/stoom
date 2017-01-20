@@ -19,7 +19,20 @@
 .c-card--alpha {
     position: relative;
     border: 8px solid currentColor;
+    z-index: 2;
 }
+
+    .c-card__image {
+        position: absolute;
+        z-index: -1;
+        opacity: .2;
+        width: 100%;
+        left: 0;
+
+        img {
+            width: 100%;
+        }
+    }
 
 .c-card--beta {
     position: relative;
