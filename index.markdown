@@ -27,7 +27,7 @@ practical:
     cost: "€60"
     text: Wie zich inschrijft voor het volledige jaar betaalt €100. Daarin zit een
       waarborg van €60 die je terugkrijgt als je op ‘Bring Your Own Beamer’ staat.
-      Je ticket om mee te gaan naar BYOB krijg je gratis.
+      Je ticket om mee te gaan naar BYOB Utrecht krijg je gratis.
   - title: Losse workshop
     cost: "€10"
     text: Een losse workshop volgen kan ook, en kost €10. Eens langskomen op een werkmoment
