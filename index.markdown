@@ -9,7 +9,7 @@ details:
   text: |-
     Het komende jaar gaan we samen kijken wat er ontstaat als kunst en technologie botsen. Aan de hand van laagdrempelige workshops kijken we hoe je met een beamer kan mappen, zoeken we de limieten van VR en gaan we aan de slag met licht. Jep, dat las je goed.
 
-    Workshops en maakmomenten vinden plaats op dinsdagavond van 19 tot 21u30. Elke woensdagavond vanaf 19u00 is het lab open, en kan je komen doorwerken aan je creatie. Nerdlab vind je in Nieuwland 65, 9000 Gent. Garagepoort door, eerste links. Verzekering en gezelligheid zijn geregeld.
+    Workshops en maakmomenten vinden plaats op dinsdagavond van 19u30 tot 22u. Elke woensdagavond vanaf 19u00 is het lab open, en kan je komen doorwerken aan je creatie. Nerdlab vind je in Nieuwland 65, 9000 Gent. Garagepoort door, eerste links. Verzekering en gezelligheid zijn geregeld.
 agenda:
   title: Agenda
 practical:
