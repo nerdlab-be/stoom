@@ -12,8 +12,6 @@ details:
     Workshops en maakmomenten vinden plaats op dinsdagavond van 19 tot 21u30. Elke woensdagavond vanaf 19u00 is het lab open, en kan je komen doorwerken aan je creatie. Nerdlab vind je in Nieuwland 65, 9000 Gent. Garagepoort door, eerste links. Verzekering en gezelligheid zijn geregeld.
 agenda:
   title: Agenda
-  workshop-title: Workshop op
-  showoff-title: Toonmoment op
 practical:
   title: Doe mee!
   intro: Zin gekregen om mee te doen? Ideaal! Het enige wat je nodig hebt is een laptop,
