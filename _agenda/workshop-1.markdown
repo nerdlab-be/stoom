@@ -1,8 +1,8 @@
 ---
 title: RGB VS CMYK
 date: 2017-01-17 10:20:00 Z
-workshop-date: 2017-01-17 00:00:00 Z
-showoff-date: 2017-01-27 00:00:00 Z
+workshop-date: 2017-02-14 00:00:00 Z
+showoff-date: 2017-03-10 00:00:00 Z
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tellus odio, vehicula eget tristique et, faucibus in massa. Nullam blandit neque justo, nec accumsan mi posuere in.
+Zin om te leren videomappen, maar geen idee hoe je eraan begint? In het eerste deel van STOOM gaan we dieper in op kleur en werken we samen een concept uit!
