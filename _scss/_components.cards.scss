@@ -48,8 +48,15 @@
 }
 
 .c-card-divider {
+    position: relative;
+
     .c-color & + & {
         border-top: 4px dotted palette(color-neutral,light);
+
+        &:after,
+        &:before {
+            position: absolute;
+        }
     }
 
     .c-color--alpha & + & {
@@ -65,24 +72,62 @@
     }
 
     @include mq(bp3) {
+        & + &:after,
+        & + &:before {
+            position: absolute;
+            content: '';
+            width: 16px;
+            height: 4px;
+            background-color: palette(color-neutral,dark);
+            left: -10px;
+        }
+
+        & + &:after {
+            top: -3px;
+        }
+
+        & + &:before {
+            bottom: -3px;
+        }
+
         .c-color &  + & {
             border-left: 4px dotted palette(color-neutral,light);
             border-top: 0;
+
+            &:after,
+            &:before {
+                background-color: palette(color-neutral,light);
+            }
         }
 
         .c-color--alpha &  + & {
             border-left: 4px dotted palette(color-beta,light);
             border-top: 0;
+
+            &:after,
+            &:before {
+                background-color: palette(color-beta,light);
+            }
         }
 
         .c-color--beta &  + & {
             border-left: 4px dotted palette(color-alpha,light);
             border-top: 0;
+
+            &:after,
+            &:before {
+                background-color: palette(color-alpha,light);
+            }
         }
 
         .c-color--gamma &  + & {
             border-left: 4px dotted palette(color-neutral,light);
             border-top: 0;
+
+            &:after,
+            &:before {
+                background-color: palette(color-neutral,light);
+            }
         }
     }
 }

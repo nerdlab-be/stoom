@@ -16,8 +16,8 @@ defaults:
     path: ''
     type: agenda
   values:
-    workshop-date: 
-    showoff-date: 
+    workshops:
+    showoff:
 author: Nerdlab
 description: Wat als kunst en technologie samenkomen? Een vraag waar we bij Nerdlab
   vaak over nadenken, en waar we jou voor nodig hebben!
