@@ -16,6 +16,11 @@ agenda:
   showoff-title: Toonmoment op
 practical:
   title: Doe mee!
+  introduction: 'Workshops en maakmomenten vinden plaats op dinsdagavond van 19 tot
+    21u30. Nerdlab stelt haar lab open om in te spelen en dat is in Nieuwland 65,
+    9000 Gent. Garagepoort door, eerste links. Verzekering en gezelligheid zijn geregeld.
+
+'
   options:
   - title: 1 kwartaal
     cost: "€35"
