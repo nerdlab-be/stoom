@@ -1,0 +1,51 @@
+---
+title: Stoom
+timezone: UTC
+collections:
+  agenda:
+    title: Agenda
+    output: false
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: agenda
+  values:
+    workshops: 
+    showoff: 
+author: Nerdlab
+description: Heb jij zin om ongedwongen dingen te maken? Wil jij op een fijne manier
+  leren van de beste? Welkom bij STOOM!
+baseline: Coole dingen maken, tussen kunst en technologie.
+url: http://stoom.nerdlab.be
+twitter: NerdLab9000
+google_analytics: UA-48840590-3
+footer:
+  author: Nerdlab
+  author-url: http://nerdlab.be/
+  facebook-url: https://www.facebook.com/Nerdlab
+  twitter-url: https://twitter.com/NerdLab9000
+  instagram-url: https://www.instagram.com/nerdlab9000/
+permalink: pretty
+exclude:
+- _site
+- scss
+- "*scss"
+- Gem*
+- Guard*
+- "*rb"
+- ".sass-cache"
+- ".git*"
+- config.rb
+- README.md
+- LICENSE.md
+- CONTRIBUTING.md
+- "*.json"
+- node_modules
+- gulpfile.js
+- vendor.yml

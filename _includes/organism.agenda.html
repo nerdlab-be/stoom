@@ -1,0 +1,27 @@
+<div class="c-row c-row--large js-two" id="agenda">
+    <div class="o-container">
+        <h2 class="c-subtitle">
+            {{ page.agenda.title }}
+        </h2>
+        <!-- <p class="u-text-center c-lead">
+            {{ page.agenda.intro }}
+        </p> -->
+        <div class="o-grid o-grid--gutter-sm">
+            {% assign agenda = site.agenda | sort: 'position' %}
+            {% for item in agenda %}
+            <div class="o-grid__item u-1-of-2-bp3 u-1-of-4-bp5 ">
+                <div class="c-card c-card--alpha" data-mh="agenda">
+                    <h3 class="c-title-card u-text-center">{{ item.title }}</h3>
+                    {% if item.workshops %}
+                    <p class="c-date-large u-text-center">{{ item.workshops }}</p>
+                    {% endif %}
+                    {{ item.content }}
+                    {% if item.showoff %}
+                    <p class="c-date-small u-text-center">{{ item.showoff }}</p>
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

@@ -1,0 +1,35 @@
+<div class="c-row c-row--large js-three" id="practical">
+    <div class="o-container c-relative">
+        <h2 class="c-subtitle">
+            {{ page.practical.title }}
+        </h2>
+        <p class="u-text-center c-lead">
+            {{ page.practical.intro }}
+        </p>
+        <div class="o-grid o-grid--gutter">
+            {% for item in page.practical.options %}
+            <div class="o-grid__item u-1-of-3-bp3 c-card-divider">
+                <div class="c-card c-card--beta">
+                    <h3 class="u-text-center c-card__title">{{ item.title }}</h3>
+                    <div data-mh="price" class="u-mb-epsilon">
+                        {{ item.text | markdownify }}
+                    </div>
+                    <p class="u-text-center">
+                        <a href="{{ page.practical.cta.button-url }}" class="c-button c-button--lg c-button--alpha">{{ page.practical.cta.button }}</a>
+                    </p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="u-text-center u-mt-delta">
+            <p class="u-mt-epsilon u-mb-epsilon">
+                <a href="{{ page.practical.cta.link-url }}" class="c-link">
+                    {% include atom.symbol.html value="contact" %} {{ page.practical.cta.link }}
+                </a>
+                of
+                <a href="{{ page.practical.project.link-url }}" class="c-link">{% include atom.symbol.html value="github" %} {{ page.practical.project.link }}
+                </a>
+            </p>
+        </div>
+    </div>
+</div>
