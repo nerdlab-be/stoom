@@ -2,8 +2,8 @@
 title: Nerdlab Stoom
 section: home
 header:
-  intro: "Heb jij zin om ongedwongen dingen te maken? Wil jij op een fijne manier
-    leren van de beste? Welkom bij STOOM!"
+  intro: Heb jij zin om ongedwongen dingen te maken? Wil jij op een fijne manier leren
+    van de beste? Welkom bij STOOM!
   button: Doe mee!
 details:
   text: |-
@@ -65,3 +65,4 @@ about:
     Oh, en daarnaast hebben we ook een fablab in Gent waar iedereen welkom is."
 layout: home
 ---
+
