@@ -53,6 +53,9 @@ partners:
 - title: Vlaamse overheid
   image: "/uploads/vlaamseoverheid.png"
   url: http://www.vlaanderen.be/nl
+- title: Circa
+  image: "/uploads/circa.png"
+  url: http://circagent.be/
 about:
   text: "**[Nerdlab](http://nerdlab.be/)** is een **open collectief** van **makers**.
     We bouwen installaties en machines, organiseren evenementen en veroveren de wereld.
