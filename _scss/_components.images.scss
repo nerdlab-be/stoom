@@ -17,12 +17,19 @@
 
             &:nth-child(odd) {
                 right: -23%;
-                top: -50%;
+                top: -30%;
             }
 
             &:nth-child(even) {
                 left: -23%;
                 top: 45%;
+            }
+        }
+
+        @include mq(bp5) {
+            &:nth-child(odd) {
+                right: -23%;
+                top: -55%;
             }
         }
     }
