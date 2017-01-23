@@ -2,23 +2,23 @@
 title: Nerdlab Stoom
 section: home
 header:
-  intro: Wat als kunst en technologie samenkomen? Een vraag waar we bij Nerdlab vaak
-    over nadenken, en waar we jou voor nodig hebben!
+  intro: "Heb jij zin om ongedwongen dingen te maken? Wil jij op een fijne manier
+    leren van de beste?\nWelkom bij STOOM! "
   button: Doe mee!
 details:
   text: |-
-    Het komende jaar willen we samen met enthousiaste jongeren - zoals jij! - kijken wat er ontstaat als kunst en technologie botsen. Welkom bij STOOM! Aan de hand van workshops kijken we hoe je met een beamer kan mappen, zoeken we de limieten van onze 3D-printers op en gaan we aan de slag met licht. Jep, dat las je goed.
+    Het komende jaar gaan we samen met enthousiaste jongeren - zoals jij! - kijken wat er ontstaat als kunst en technologie botsen. Aan de hand van laagdrempelige workshops kijken we hoe je met een beamer kan mappen, zoeken we de limieten van VR en gaan we aan de slag met licht. Jep, dat las je goed.
 
-    Iedere dinsdag komen we samen om van elkaar te leren of om aan onze projecten te werken. Het resultaat ervan tonen we op vier evenementen, waaronder **‘[Bring Your Own Beamer](http://byobgent.nerdlab.be/)’** waar vorig jaar meer dan duizend bezoekers langs kwamen. Je kiest zelf of je een traject van een kwartaal of een volledig jaar volgt (Eén workshop meemaken kan ook, maar het is uiteraard fijner om aan een groter project te werken)!
+    Workshops en maakmomenten vinden plaats op dinsdagavond van 19 tot 21u30. Nerdlab stelt haar lab open om in te spelen en dat is in Nieuwland 65, 9000 Gent. Garagepoort door, eerste links. Verzekering en gezelligheid zijn geregeld.
 agenda:
   title: Agenda
   workshop-title: Workshop op
   showoff-title: Toonmoment op
 practical:
   title: Doe mee!
-  introduction: Zin gekregen om mee te doen? Ideaal! Het enige wat je nodig hebt is
-    een laptop, een verse onderbroek en een paspoort waarop staat dat je tussen 16
-    en 25 jaar oud bent.
+  intro: Zin gekregen om mee te doen? Ideaal! Het enige wat je nodig hebt is een laptop,
+    een verse onderbroek en een paspoort waarop staat dat je tussen 16 en 25 jaar
+    oud bent.
   options:
   - title: 1 kwartaal
     cost: "€35"
