@@ -9,7 +9,7 @@ details:
   text: |-
     Het komende jaar gaan we samen kijken wat er ontstaat als kunst en technologie botsen. Aan de hand van laagdrempelige workshops kijken we hoe je met een beamer kan mappen, zoeken we de limieten van VR en gaan we aan de slag met licht. Jep, dat las je goed.
 
-    Workshops en maakmomenten vinden plaats op dinsdagavond van 19 tot 21u30. Elke woensdagavond vanaf 19u00 is het lab open, en kan je komen doorwerken aan je creatie. Nerdlab vind je in Nieuwland 65, 9000 Gent. Garagepoort door, eerste links. Verzekering en gezelligheid zijn geregeld.
+    Workshops en maakmomenten vinden plaats op dinsdagavond van 19u30 tot 22u. Elke woensdagavond vanaf 19u00 is het lab open, en kan je komen doorwerken aan je creatie. Nerdlab vind je in Nieuwland 65, 9000 Gent. Garagepoort door, eerste links. Verzekering en gezelligheid zijn geregeld.
 agenda:
   title: Agenda
 practical:
@@ -26,7 +26,7 @@ practical:
   - title: Volledig jaar
     cost: "€60"
     text: Wie zich inschrijft voor het volledige jaar betaalt €100. Daarin zit een
-      waarborg van €60 die je terugkrijgt als je op ‘Bring Your Own Beamer’ staat.
+      waarborg van €60 die je terugkrijgt als je op ‘Bring Your Own Beamer Gent’ staat.
       Je ticket om mee te gaan naar BYOB Utrecht krijg je gratis.
   - title: Losse workshop
     cost: "€10"
@@ -35,7 +35,7 @@ practical:
   cta:
     title: Doe mee!
     button: Schrijf je in
-    button-url: "#!"
+    button-url: https://docs.google.com/forms/d/e/1FAIpQLSea6ru1-r8-lpqlmmpsBAgrIBCkENQDwyFg_B_syE3Dx-HB7w/viewform
     link: Stel vragen aan Marlies
     link-url: mailto:marlies@nerdlab.be
   project:
