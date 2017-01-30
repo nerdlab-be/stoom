@@ -40,7 +40,7 @@
     @include text-dimensions($ms9,2.7,1);
     text-align: center;
     @include margin-top(3);
-    @include margin-bottom(1);
+    @include margin-bottom(2);
 
     @include mq(bp3) {
         @include margin-top(3);
@@ -83,22 +83,18 @@
     font-weight: $beta-font-weight;
 
     .c-color & {
-        color: palette(color-neutral,x-light);
-        background-color: palette(color-neutral,x-dark);
+        color: palette(color-neutral,dark);
+        background-color: tint(palette(color-neutral),80);
     }
 
     .c-color--alpha & {
-        background-color: palette(color-beta);
-
         color: palette(color-beta,dark);
-        background-color: palette(color-neutral,x-light);
+        background-color: tint(palette(color-beta),80);
     }
 
     .c-color--beta & {
-        background-color: palette(color-alpha);
-
         color: palette(color-alpha,dark);
-        background-color: palette(color-neutral,x-light);
+        background-color: tint(palette(color-alpha),80);
     }
 }
 
