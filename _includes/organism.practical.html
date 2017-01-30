@@ -15,7 +15,7 @@
                         {{ item.text | markdownify }}
                     </div>
                     <p class="u-text-center">
-                        <a href="{{ page.practical.cta.button-url }}" class="c-button c-button--lg c-button--alpha">{{ page.practical.cta.button }}</a>
+                        <a href="{{ page.practical.cta.button-url }}" class="c-button c-button--lg c-button--alpha" onclick="ga('send', 'event', 'Inschrijven', 'GaNaarForm');">{{ page.practical.cta.button }}</a>
                     </p>
                 </div>
             </div>
