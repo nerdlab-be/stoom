@@ -30,7 +30,7 @@
         position: absolute;
         top: 8px;
         left: -8px;
-        width: 100%;
+        width: calc(100% + 16px);
         height: 100%;
         z-index: -1;
         background-color: palette(color-neutral,x-light);
@@ -88,10 +88,13 @@
         margin-top: -35px;
         margin-left: -35px;
         margin-bottom: 20px;
+        width: calc(100% + 70px);
 
         @include mq(bp3) {
             margin-top: -50px;
             margin-left: -50px;
+            margin-bottom: 30px;
+            width: calc(100% + 100px);
         }
 
         &:after {
