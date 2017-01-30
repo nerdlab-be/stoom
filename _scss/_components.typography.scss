@@ -79,6 +79,9 @@
     @include text-dimensions($ms1,1,0);
     @include padding-tb(.6,.6);
     @include padding-lr(.3,.3);
+    display: block;
+    position: relative;
+    z-index: 2;
     font-family: $beta-font-family;
     font-weight: $beta-font-weight;
 
