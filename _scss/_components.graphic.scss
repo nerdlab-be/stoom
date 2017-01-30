@@ -17,7 +17,7 @@
     .c-graphic__item {
         position: absolute;
         left: 0;
-        opacity: .4;
+        opacity: .3;
         width: 100%;
 
         .c-color & {
@@ -27,7 +27,7 @@
         }
 
         .c-color--alpha & {
-            opacity: .3;
+            opacity: .2;
 
             svg g {
                 stroke: palette(color-beta);
@@ -35,7 +35,7 @@
         }
 
         .c-color--beta & {
-            opacity: .3;
+            opacity: .2;
 
             svg g {
                 stroke: palette(color-alpha);

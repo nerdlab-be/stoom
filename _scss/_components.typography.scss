@@ -82,7 +82,6 @@
     font-family: $beta-font-family;
     font-weight: $beta-font-weight;
 
-
     .c-color & {
         color: palette(color-neutral,x-light);
         background-color: palette(color-neutral,x-dark);
@@ -90,10 +89,16 @@
 
     .c-color--alpha & {
         background-color: palette(color-beta);
+
+        color: palette(color-beta,dark);
+        background-color: palette(color-neutral,x-light);
     }
 
     .c-color--beta & {
         background-color: palette(color-alpha);
+
+        color: palette(color-alpha,dark);
+        background-color: palette(color-neutral,x-light);
     }
 }
 
