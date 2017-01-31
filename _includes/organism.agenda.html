@@ -19,7 +19,7 @@
                     {% endif %}
                     {{ item.content }}
                     {% if item.showoff %}
-                    <p class="u-text-center"><a href="#practical" class="c-date-small js-smoothscroll">{{ item.showoff }}</a></p>
+                    <p class="u-text-center"><a href="#practical" class="c-date-small js-smoothscroll" onclick="ga('send', 'event', 'Inschrijven', '{{ item.title }}');">{{ item.showoff }}</a></p>
                     {% endif %}
                 </div>
             </div>
