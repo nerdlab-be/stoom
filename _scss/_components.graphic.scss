@@ -113,8 +113,13 @@
 
     .c-illustration__item {
         position: absolute;
-        left: 35%;
-        top: 10%;
+        left: 10%;
+        top: 5%;
         opacity: .2;
         width: 100%;
+
+        @include mq(bp2) {
+            left: 35%;
+            top: 10%;
+        }
     }
