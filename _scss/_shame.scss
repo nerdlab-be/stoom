@@ -14,3 +14,16 @@
 .o-container--sm {
     max-width: map-get($breakpoints,bp3);
 }
+
+.o-flex-alt {
+    display: flex;
+    @include padding-lr(-($grid-gutter),-($grid-gutter));
+}
+
+.o-flex-alt--center {
+    justify-content: center;
+}
+
+    .o-flex-alt__item {
+        @include padding-lr($grid-gutter,$grid-gutter);
+    }
