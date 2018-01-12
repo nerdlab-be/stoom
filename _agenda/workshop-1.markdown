@@ -2,8 +2,8 @@
 title: Apocalyps
 date: 2017-01-17 10:20:00 Z
 position: 0
-workshops: 6 februari - 13 februari - 20 februari - 27 februari - 6 februari -  13
-  februari - 20 februari - 27 februari
+workshops: '6 februari - 13 februari - 20 februari - 27 februari - 6 maart -  13 maart
+  - 20 maart - 27 maart '
 Content: storyboards - monteren - stitchen - 360 filmen - animeren - Blender
 ---
 
