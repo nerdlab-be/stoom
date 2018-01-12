@@ -8,16 +8,16 @@ header:
 details:
   text: "We laten ons het komende jaar omringen door kunstenaars en technisch experts
     om dé clash te maken tussen kunst en technologie. \nWe gaan aan de slag met een
-    dansgezelschap, Mardanse, zoeken met hen de limieten van VR op en gaan aan de
-    slag met Mantisbots & drones. \nJep, dat las je goed.\nHet verhaal start met een
-    Apocalyps. We gaan Migreren, zorgen voor een spectaculaire Arrival, en gaan experimenteren
-    met nieuwe vormen van Regeneration.\nWe bevinden ons in een futuristisch tijdperk
-    waarin alle grondstoffen op moeder Aarde door toedoen van de mens zijn uitgeput.
-    Een nieuw soort kolonialisme wordt op gang gebracht.\n\nWorkshops en maakmomenten
-    vinden plaats op dinsdagavond van 19u00 tot 22u. \nElke woensdagavond vanaf 19u00
-    is het lab open, en kan je komen doorwerken aan je creatie. Nerdlab vind je in
-    Nieuwland 65, 9000 Gent. Garagepoort door, eerste links. Verzekering en gezelligheid
-    zijn geregeld.\n\n"
+    dansgezelschap, Mardanse, zoeken met hen de limieten van Virtual Reality op en
+    gaan aan de slag met Megatronics & drones. \nJep, dat las je goed.\nHet verhaal
+    start met een Apocalyps. We gaan Migreren, zorgen voor een spectaculaire Arrival,
+    en gaan experimenteren met nieuwe vormen van Regeneration.\nWe bevinden ons in
+    een futuristisch tijdperk waarin alle grondstoffen op moeder Aarde door toedoen
+    van de mens zijn uitgeput. Een nieuw soort kolonialisme wordt op gang gebracht.\n\nWorkshops
+    en maakmomenten vinden plaats op dinsdagavond van 19u00 tot 22u. \nElke woensdagavond
+    vanaf 19u00 is het lab open, en kan je komen doorwerken aan je creatie. Nerdlab
+    vind je in Nieuwland 65, 9000 Gent. Garagepoort door, eerste links. Verzekering
+    en gezelligheid zijn geregeld.\n\n"
 agenda:
   title: Agenda
 practical:

@@ -2,8 +2,8 @@
 title: Arrival
 date: 2017-01-17 10:32:00 Z
 position: 2
-workshops: 5, 12, 19, 26 juni & 7, 14, 21, 28 augustus
-showoff: "?"
+workshops: 5 juni - 12 juni - 19 juni - 26 juni
+Content: 360° filmen met drones - 3D print - Dancing with drones
 image: "/uploads/21151296_1885480711772987_2986098449627018871_n.jpg"
 ---
 
