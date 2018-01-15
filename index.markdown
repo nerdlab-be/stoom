@@ -38,7 +38,7 @@ practical:
   cta:
     title: Doe mee!
     button: Schrijf je in
-    button-url: https://docs.google.com/forms/d/e/1FAIpQLSea6ru1-r8-lpqlmmpsBAgrIBCkENQDwyFg_B_syE3Dx-HB7w/viewform
+    button-url: https://docs.google.com/forms/d/e/1FAIpQLSf5-QMdl-loPRsultnfT23yD6hUexLv4w6Zs0YdIxAG5X2BzA/viewform?usp=sf_link
     link: Stel vragen aan Marlies
     link-url: mailto:marlies@nerdlab.be
   project:
