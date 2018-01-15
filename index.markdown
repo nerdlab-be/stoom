@@ -2,17 +2,15 @@
 title: Nerdlab Stoom
 section: home
 header:
-  intro: Heb jij zin om ongedwongen dingen te maken? Wil jij op een fijne manier leren
-    van de beste? Welkom bij STOOM!
-  button: Doe mee!
+  intro: "Werd het tijd om stevig aan de slag te gaan met VR?   \nGoesting om in bende
+    aan een voorstelling te bouwen?\nWelkom bij STOOM!"
+  button: Verkocht!
 details:
   text: "We laten ons het komende jaar omringen door kunstenaars en technisch experts
-    om dé clash te maken tussen kunst en technologie. \nWe gaan aan de slag met een
-    dansgezelschap, Mardanse, zoeken met hen de limieten van Virtual Reality op en
-    gaan aan de slag met Mechatronics & drones. \nJep, dat las je goed.\nHet verhaal
-    start met een Apocalyps. We gaan Migreren, zorgen voor een spectaculaire Arrival,
-    en gaan experimenteren met nieuwe vormen van Regeneration.\nWe bevinden ons in
-    een futuristisch tijdperk waarin alle grondstoffen op moeder Aarde door toedoen
+    om VR en dans samen te brengen. Dansgezelschap Mardanse zorgt voor de choreografie
+    maar we voegen daar Virtual Reality, bewegende robots en drones aan toe.\nJep,
+    dat las je goed. Drones.\nHet verhaal start met een Apocalyps. We bevinden ons
+    in een futuristisch tijdperk waarin alle grondstoffen op moeder Aarde door toedoen
     van de mens zijn uitgeput. Een nieuw soort kolonialisme wordt op gang gebracht.\n\nWorkshops
     en maakmomenten vinden plaats op dinsdagavond van 19u00 tot 22u. \nElke woensdagavond
     vanaf 19u00 is het lab open, en kan je komen doorwerken aan je creatie. Nerdlab
@@ -21,7 +19,7 @@ details:
 agenda:
   title: Agenda
 practical:
-  title: Doe mee!
+  title: Schrijf je in
   intro: Zin gekregen om mee te doen? Ideaal! Het enige wat je nodig hebt is een laptop
     en een paspoort waarop staat dat je tussen 16 en 25 jaar oud bent.
   options:
