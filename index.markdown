@@ -2,9 +2,9 @@
 title: Nerdlab Stoom
 section: home
 header:
-  intro: "Werd het tijd om stevig aan de slag te gaan met VR?   \nGoesting om in bende
-    aan een voorstelling te bouwen?\nWelkom bij STOOM!"
-  button: Verkocht!
+  intro: "Tijd om stevig aan de slag te gaan met VR?   \nGoesting om in bende aan
+    een voorstelling te bouwen?\nWelkom bij STOOM!"
+  button: Ga ervoor
 details:
   text: "We laten ons het komende jaar omringen door kunstenaars en technisch experts
     om VR en dans samen te brengen. Dansgezelschap Mardanse zorgt voor de choreografie
