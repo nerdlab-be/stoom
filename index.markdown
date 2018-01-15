@@ -9,7 +9,7 @@ details:
   text: "We laten ons het komende jaar omringen door kunstenaars en technisch experts
     om dé clash te maken tussen kunst en technologie. \nWe gaan aan de slag met een
     dansgezelschap, Mardanse, zoeken met hen de limieten van Virtual Reality op en
-    gaan aan de slag met Megatronics & drones. \nJep, dat las je goed.\nHet verhaal
+    gaan aan de slag met Mechatronics & drones. \nJep, dat las je goed.\nHet verhaal
     start met een Apocalyps. We gaan Migreren, zorgen voor een spectaculaire Arrival,
     en gaan experimenteren met nieuwe vormen van Regeneration.\nWe bevinden ons in
     een futuristisch tijdperk waarin alle grondstoffen op moeder Aarde door toedoen
