@@ -51,6 +51,9 @@ partners:
 - title: Circa
   image: "/uploads/circa.png"
   url: http://circagent.be/
+- title: Oetang
+  image: "/uploads/oetang.png"
+  url: http://oetang.be/vorming/
 about:
   text: "**[Nerdlab](http://nerdlab.be/)** is een **open collectief** van **makers**.
     We bouwen installaties en machines, organiseren evenementen en veroveren de wereld.
