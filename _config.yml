@@ -16,9 +16,9 @@ defaults:
     path: ''
     type: agenda
   values:
-    workshops:
-    showoff:
-    image:
+    workshops: 
+    showoff: 
+    image: 
 author: Nerdlab
 description: |-
   Tijd om stevig aan de slag te gaan met VR? Goesting om in bende aan een voorstelling te bouwen?
