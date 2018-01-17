@@ -16,9 +16,9 @@ defaults:
     path: ''
     type: agenda
   values:
-    workshops: 
-    showoff: 
-    image: 
+    workshops:
+    showoff:
+    image:
 author: Nerdlab
 description: Heb jij zin om ongedwongen dingen te maken? Wil jij op een fijne manier
   leren van de beste? Welkom bij STOOM!
@@ -50,5 +50,5 @@ exclude:
 - node_modules
 - gulpfile.js
 - vendor.yml
-fb image: "/uploads/STOOM_fbcard.jpg"
-twitter image: "/uploads/STOOM_twcard.jpg"
+fb-image: "/uploads/STOOM_fbcard.jpg"
+twitter-image: "/uploads/STOOM_twcard.jpg"
