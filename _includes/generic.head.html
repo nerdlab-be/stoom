@@ -32,12 +32,12 @@
     <meta property="og:url" content="{{ page.url | prepend: site.url }}">
     <meta property="og:title" content="{{ site.title }}">
     <meta property="og:description" content="{{ site.description }}">
-    <meta property="og:image" content="{{ site.fb-image }}">
+    <meta property="og:image" content="{{ site.fb-image | prepend: site.url }}">
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="{{ site.title | escape }}" />
     <meta name="twitter:description" content="{{ site.description }}" />
     <meta name="twitter:url" content="{{ page.url | prepend: site.url }}" />
     <meta name="twitter:site" content="@{{ site.twitter | remove: '@' }}" />
-    <meta name="twitter:image" content="{{ site.twitter-image }}" />
+    <meta name="twitter:image" content="{{ site.twitter-image | prepend: site.url }}" />
 </head>
