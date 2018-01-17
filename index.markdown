@@ -12,8 +12,8 @@ details:
     dat las je goed. Drones.\nHet verhaal start met een Apocalyps. We bevinden ons
     in een futuristisch tijdperk waarin alle grondstoffen op moeder Aarde door toedoen
     van de mens zijn uitgeput. Een nieuw soort kolonialisme wordt op gang gebracht.\n\nWorkshops
-    en maakmomenten vinden plaats op dinsdagavond van 19u00 tot 22u. \nElke woensdagavond
-    vanaf 19u00 is het lab open, en kan je komen doorwerken aan je creatie. Nerdlab
+    en maakmomenten vinden plaats op dinsdagavond van 19u00 tot 22u. \nElke woensdag
+    vanaf 13u00 is het lab open, en kan je komen doorwerken aan je creatie. Nerdlab
     vind je in Nieuwland 65, 9000 Gent. Garagepoort door, eerste links. Verzekering
     en gezelligheid zijn geregeld.\n\n"
 agenda:
