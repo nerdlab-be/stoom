@@ -50,3 +50,5 @@ exclude:
 - node_modules
 - gulpfile.js
 - vendor.yml
+fb image: "/uploads/STOOM_fbcard.jpg"
+twitter image: "/uploads/STOOM_twcard.jpg"
