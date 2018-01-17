@@ -2,8 +2,8 @@
 title: Migratie
 date: 2017-01-17 10:31:00 Z
 position: 1
-workshops: '3 april - 10 april - 17 april - 24 april - 1 mei - 8 mei - 15 mei - 22
-  mei - 29 mei - '
+workshops: 17 april - 24 april - 1 mei - 8 mei - 15 mei - 22 mei - 29 mei - 5 juni
+  - 12 juni
 content: ontwerp - mechatronics - lights & projection - DMX - 360° - RFID
 ---
 
