@@ -2,7 +2,8 @@
 title: Arrival
 date: 2017-01-17 10:32:00 Z
 position: 2
-workshops: 5 juni - 12 juni - 19 juni - 26 juni
+workshops: 19 juni - 26 juni - 7 augustus - 14 augustus - 21 augustus - 28 augustus
+  - 4 september
 Content: 
 ---
 

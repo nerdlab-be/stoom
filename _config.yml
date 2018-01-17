@@ -20,8 +20,9 @@ defaults:
     showoff: 
     image: 
 author: Nerdlab
-description: Heb jij zin om ongedwongen dingen te maken? Wil jij op een fijne manier
-  leren van de beste? Welkom bij STOOM!
+description: |-
+  Tijd om stevig aan de slag te gaan met VR? Goesting om in bende aan een voorstelling te bouwen?
+  Welkom bij STOOM!
 baseline: Waar technologie en kunst botsen
 url: http://stoom.nerdlab.be
 twitter: NerdLab9000
@@ -50,3 +51,5 @@ exclude:
 - node_modules
 - gulpfile.js
 - vendor.yml
+fb image: "/uploads/STOOM_fbcard.jpg"
+twitter image: "/uploads/STOOM_twcard.jpg"

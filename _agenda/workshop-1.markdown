@@ -2,8 +2,8 @@
 title: Apocalyps
 date: 2017-01-17 10:20:00 Z
 position: 0
-workshops: '6 februari - 13 februari - 20 februari - 27 februari - 6 maart -  13 maart
-  - 20 maart - 27 maart '
+workshops: 20 februari - 27 februari - 6 maart -  13 maart - 20 maart - 27 maart  -
+  3 april - 10 april
 image: "/uploads/21151296_1885480711772987_2986098449627018871_n.jpg"
 Content: 
 ---
