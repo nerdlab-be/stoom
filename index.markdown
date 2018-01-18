@@ -30,7 +30,7 @@ practical:
   - title: Volledig jaar
     cost: "€60"
     text: 'Wie zich inschrijft voor het volledige jaar betaalt €100. Daarin zit een
-      waarborg van €60 die je terugkrijgt als je op het ganse traject mee loopt. '
+      waarborg van €60 die je terugkrijgt als je het ganse traject mee loopt. '
   - title: Losse workshop
     cost: "€10"
     text: Een losse workshop volgen kan ook, en kost €10. Eens langskomen op een werkmoment
