@@ -21,7 +21,7 @@ agenda:
 practical:
   title: Schrijf je in
   intro: Zin gekregen om mee te doen? Ideaal! Het enige wat je nodig hebt is een laptop
-    en een paspoort waarop staat dat je tussen 16 en 25 jaar oud bent.
+    en een paspoort waarop staat dat je meer dan 16 jaar oud bent.
   options:
   - title: 1 kwartaal
     cost: "€35"
